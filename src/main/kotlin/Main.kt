@@ -13,4 +13,39 @@ fun main() {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         println("i = $i")
     }
+
+    var pi : Double=5.123456789
+    println("El valor de pi es $pi")
+
+    //Float solo puede mostrar 7 decimales
+    var pi2 : Float = 3.12345678F
+    println("El valor de pi2 es $pi2")
+
+    var resta = pi - pi2
+    println(" valor resta $resta")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
