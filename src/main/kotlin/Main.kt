@@ -14,7 +14,7 @@ fun main() {
         println("i = $i")
     }
 
-    var pi : Double=5.123456789
+    val pi : Double=5.123456789
     println("El valor de pi es $pi")
 
     //Float solo puede mostrar 7 decimales
