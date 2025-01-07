@@ -48,6 +48,12 @@ val y = 5
     println(y.compareTo(x))
 
     println(x.equals(y))
+println("Escribe el nombre: ")
+    val nombre: String = readln()
+
+    if (nombre.isNotEmpty()) {
+        println("El largo del nombre es ${nombre.length}")
+    } else println("El nombre es vacio")
 }
 
 
