@@ -23,6 +23,31 @@ fun main() {
 
     var resta = pi - pi2
     println(" valor resta $resta")
+
+    //operadores mediante funciones
+val x = 2
+val y = 5
+
+    println(x.minus(y))
+
+    println(x.plus(y))
+
+    println(x.times(y))
+
+    println(x.div(y))
+
+    println(x.rem(y))
+
+    println(x.inc())
+
+    println(x.dec())
+
+
+    println(x.compareTo(y))
+
+    println(y.compareTo(x))
+
+    println(x.equals(y))
 }
 
 
