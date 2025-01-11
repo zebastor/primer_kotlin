@@ -9,4 +9,8 @@ fun main(){
         nulo!!.length
     }catch (exception : Exception){
         println("El valor es nulo")}
+
+    // operador elvis devuelve un valor por defecto
+    val caracterNulo : Int = nulo?.length?:0
+    println(caracterNulo)
 }
